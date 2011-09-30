@@ -1,0 +1,2 @@
+Just a proof-of-concept C++ client for Oracle IRM to get list of rights for a particular sealed document and any other valuable data.
+Communication's based on gSOAP stubs.
