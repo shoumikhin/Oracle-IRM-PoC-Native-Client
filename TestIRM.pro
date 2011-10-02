@@ -21,10 +21,13 @@ SOURCES     += \
 
 win32\
 {
-LIBS        +=  irm/oracleirm.dll
+LIBS        += \
+                irm/oracleirm.dll
 }
 
 unix\
 {
-LIBS        +=  irm/liboracleirm.so
+LIBS        += \
+                irm/liboracleirm.so\
+                -ltinyxml
 }
